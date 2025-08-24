@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "./Search"; // ✅ import your functional Search component
+import Search from "./Search"; //  imported your functional Search component
 
 const Navbar = ({ searchTerm, setSearchTerm }) => {
   return (
@@ -7,7 +7,7 @@ const Navbar = ({ searchTerm, setSearchTerm }) => {
 
       {/* Left: Logo */}
      <div className="w-28 h-auto">
-  <img src="/bingeLogo.png" alt="Binge Watch Logo" className="w-full h-auto object-contain" />
+  <img src="/movies-hub.png" alt="Binge Watch Logo" className="w-full h-auto object-contain" />
 </div>
 
       {/* Center: Functional Search Component */}
