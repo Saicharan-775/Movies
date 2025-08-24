@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const API_OPTIONS = {
   method: 'GET',
@@ -91,7 +90,7 @@ const MovieDetailsModal = ({ movie, onClose }) => {
                 src={
                   actor.profile_path
                     ? `https://image.tmdb.org/t/p/w185/${actor.profile_path}`
-                    : 'public/No-photo-available.png'
+                    : '/No-photo-available.png'
                 }
                 alt={actor.name}
               />
